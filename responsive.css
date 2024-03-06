@@ -1,0 +1,234 @@
+@media (max-width: 750px) {
+  .navbar {
+    display: none;
+  }
+  .introsection {
+    flex-direction: column;
+  }
+  .fixed__logos {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+  .intro__left img {
+    right: 15%;
+  }
+  .products {
+    flex-direction: column;
+  }
+  .product {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .product__text {
+    text-align: center;
+  }
+  .product__image {
+    padding: 20px;
+  }
+  .product__image img {
+    top: 60%;
+  }
+  .product__image span {
+    padding: 10px 15px;
+  }
+  .firms div {
+    flex-direction: column;
+  }
+  .routines {
+    flex-direction: column;
+  }
+  .routine {
+    margin: 0 auto;
+    width: 80%;
+  }
+  .discount__section > div:nth-of-type(1) {
+    background-position: right;
+  }
+  .discount__section div > img:nth-of-type(1) {
+    right: 18%;
+  }
+  .discount__text {
+    width: 60%;
+  }
+  .yellow__background div{
+    flex-direction: column;
+  }
+  .yellow__background div div{
+    width: 100%;
+  }
+  .yellow__background div div span{
+    font-size: 20px;
+    text-align: center;
+  }
+  .yellow__background div div:not(:last-child)::after{
+    display: none;
+  }
+  .brends{
+    display: none;
+  }
+  .header__right form{
+    width: 40px; 
+}
+.header__right form input::placeholder{
+    visibility: hidden;
+}
+.footer>div:nth-of-type(1)>img{
+  width: 100px;
+}
+.footer>div{
+  width: 25%;
+}
+.footer__logo{
+  display: none !important;
+}
+.last__category{
+    display: none !important;
+}
+
+.language{
+    display: none;
+}
+.basket{
+  display: none !important;
+}
+.nav__menu{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+
+}
+.like{
+  border: 1px solid  rgba(199, 202, 206, 1);
+  border-radius: 4px;
+}
+.header__right form input{
+  width: 40px;
+  height: 40px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+}
+@media (max-width: 650px) {
+  .discount__section div > img:nth-of-type(1) {
+    right: 25%;
+    top: 45px;
+    width: 200px;
+  }
+}
+@media (max-width: 600px) {
+  .intro__left img {
+    right: 10%;
+    width: 100px;
+  }
+  .intro__right img {
+    width: 100px;
+  }
+  .discount__section > div:nth-of-type(1) {
+    background-position: left;
+  }
+  .discount__section div img {
+    display: none;
+  }
+  .discount__text {
+    width: 100%;
+  }
+  .discount__text h1 {
+    font-size: 40px;
+    line-height: 2;
+  }
+  .discount__text h2 {
+    font-size: 22px;
+  }
+  .discount__text span {
+    font-size: 20px;
+  }
+  .footer{
+    flex-direction: column;
+    gap: 10px;
+  }
+  .footer>div:nth-of-type(1)>img {
+    width: 200px;
+  }
+  .footer>div{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+   
+  } 
+  .footer>div:not(:first-child) {
+    margin: 0 auto;
+  }
+  .footer>div:nth-of-type(1)::before {
+    display: none;
+  }
+  .footer__brands{
+    display: flex;
+  }
+  .category ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+  }
+  .ending{
+    flex-direction: column;
+    text-align: center;
+    font-size: 14px;
+    gap: 20px;
+  }
+  .ending ul{
+    display: none;
+  }
+  .ending__list{
+    display:flex !important;
+    justify-content: center;
+  }
+
+}
+@media (max-width: 500px) {
+  .intro__left img {
+    right: 3%;
+    width: 70px;
+  }
+  .intro__left h1 {
+    font-size: 18px;
+  }
+  .intro__right h1 {
+    font-size: 18px;
+    width: 50%;
+  }
+  .products__heading h1 {
+    font-size: 16px;
+  }
+  .products__heading button {
+    padding: 8px 15px;
+  }
+  .discount__text h1{
+    font-size: 25px;
+  }
+  .yellow__background div div span{
+    font-size: 16px;
+  
+  }
+  .header__right{
+    width: 75%;
+  }
+}
+@media(max-width: 450px) {
+    .naos__logo img{
+        width: 100px;
+    }
+    .routine__text p{
+      font-size: 14px;
+    }
+    .routine__text h1{
+      padding: 10px 0;
+    }
+    .fixed__logos{
+      top: 70%;
+    }
+}
